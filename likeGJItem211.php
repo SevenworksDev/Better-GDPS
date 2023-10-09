@@ -10,7 +10,7 @@ if (
     isset($_POST['like']) &&
     isset($_POST['itemID']) &&
     isset($_POST['secret']) &&
-    isset($_POST['type']) &&
+    isset($_POST['type'])
 ) {
     include "incl/misc/likeGJItem.php";
 } else {
