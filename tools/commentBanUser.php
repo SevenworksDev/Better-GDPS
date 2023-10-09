@@ -1,7 +1,7 @@
 <?php
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     $username = $_POST['username'];
-    $filePath = '../config/banned_users.txt';
+    $filePath = '../config/comment_bans.txt';
     file_put_contents($filePath, $username . PHP_EOL, FILE_APPEND | LOCK_EX);
     echo 'User successfully banned.';
 }
