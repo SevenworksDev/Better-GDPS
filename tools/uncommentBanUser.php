@@ -1,7 +1,7 @@
 <?php
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     $username = $_POST['username'];
-    $filePath = '../config/banned_users.txt';
+    $filePath = '../config/comment_bans.txt';
     $bannedUsers = file_get_contents($filePath);
     $bannedUsers = str_replace($username, '', $bannedUsers);
     $bannedUsers = trim(preg_replace('/\s+/', ' ', $bannedUsers));
