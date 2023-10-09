@@ -1,2 +1,8 @@
-# Better-GDPS
-GDPS Tools and Security stuff originally made for my GDPS "PRO GDPS"
+# Better-GDPS (WIP)
+## List of new tools
+- commentBan
+- uncommentBan
+
+## List of new implementations
+- -10 handling in uploadGJComment
+- -10 handling in uploadGJAccComment
