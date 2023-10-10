@@ -14,7 +14,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 </head>
 <body>
     <h1>Ban User</h1>
-    <form method="post" action="process_ban.php">
+    <form method="post" action="commentBanUser.php">
         <label for="username">Username: </label>
         <input type="text" id="username" name="username" required><br><br>
         <input type="submit" value="Ban User">
