@@ -17,7 +17,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 </head>
 <body>
     <h1>Unban User</h1>
-    <form method="post" action="process_unban.php">
+    <form method="post" action="uncommentBanUser.php">
         <label for="username">Username: </label>
         <input type="text" id="username" name="username" required><br><br>
         <input type="submit" value="Unban User">
